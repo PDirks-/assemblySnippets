@@ -3,7 +3,7 @@
 ##About
 A collection of assembly programs. Some programs are assignments from my assembly and computer organization class, others are practice from lectures, etc.
 
-Development is done in the WOOKIE 68HC11 Emulator using 68HC11 assembly.
+Development is done in the [WOOKIE 68HC11 Emulator](http://www.drdobbs.com/wookie-a-68hc11-emulator/184410880) using 68HC11 assembly.
 
 ##Fibonacci 2 and 4 byte
 Both programs generate the fibonacci sequence up to the Nth place (where the variable N determines what index to stop at). The difference between the two programs being how many bytes are allocated to store the fibonacci number. The 4-byte version preforms the calculation with a ripple-carry model.
@@ -13,6 +13,11 @@ Simple implementation of addition over 4 bytes with a ripple-carry model. Such a
 
 ##Basic Subroutines
 Contains different exercises in subroutines. Different parameter passing methods are used including call by reference in program memory.
+
+### Development & how to run
+All these programs were created and tested in the [WOOKIE 68HC11 Emulator](http://www.drdobbs.com/wookie-a-68hc11-emulator/184410880).
+
+To run these programs, load the .asm files into any 68HC11 emulator (I haven't tested them in any other emulator other than WOOKIE, so I'd just go with that).
 
 ---
 
